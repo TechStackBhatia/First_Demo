@@ -3,10 +3,38 @@ img {
     border-radius: 100px;
     float: left;
   }
+  .profile{
+    font-weight: bold;
+  }
   .linkedin {
     font-weight: bold;
+    display: inline-block;
+    padding: 8px 15px;
+    font-size: 16px;
+    color: white;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+    text-align: center;
+  }
+  .linkedin:hover{
+    background-color: #0056b3;
   }
   em{
     font-style: normal;
-    color: rgb(4, 66, 120);
+    color: rgb(1, 10, 17);
   }
+  .header{
+
+  }
+  .header-container{
+    background-color: wheat;
+  }
+  .mail{
+
+}
+.header-container-content{
+
+}
