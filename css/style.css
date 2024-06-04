@@ -1,3 +1,12 @@
-p{
-    background-color: black;
-}
+
+img {
+    border-radius: 100px;
+    float: left;
+  }
+  .linkedin {
+    font-weight: bold;
+  }
+  em{
+    font-style: normal;
+    color: rgb(4, 66, 120);
+  }
