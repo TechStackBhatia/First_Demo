@@ -1,3 +1,3 @@
-myVar = "shreya"
+myVar = "Skills"
 console.log('hello');
-document.write(myVar),
+document.write(myVar);
