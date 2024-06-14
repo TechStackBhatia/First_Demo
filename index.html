@@ -1,64 +1,223 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="keywords" content="Shreya, LinkedIn, Bhatia" />
-    <title>My Profile</title>
-    <link rel="stylesheet" href="./css/style.css" />
-    <style></style>
-    <img src="images/My_photo.jpg" title="Shreya" alt="Image not found" />
-
-    <p class="profile"><em>Welcome to My profile!</em></p>
-
-    <a
-      href="https://www.linkedin.com/in/shreya-bhatia-19441016a"
-      target="_blank"
-      class="linkedin"
-    >
-      Go to My LinkedIn
-    </a>
-  </head>
-  <body class="main">
-    <main>
-      <header class="header">
-        <div class="header-container">
-          <h1>Shreya Bhatia</h1>
-        </div>
-      </header>
-        <div class="header-container-content">
-        
-        <div class="mail">
-          <a href="mailto:shreya.bhatia2708@gmail.com" target="_blank">
-            <button class="glow-on-hover">Email Me</button>
-        </a>
-        </div>
-        <div class="mail">
-          <a href="tel:+4915129425156" target="_blank">
-            <button class="glow-on-hover">Call me</button>
-        </a>
-        </div>
-      
-        <br>
-        
-        <div class="card">
-            <div class="card-header">
-                <h2>My Project</h2>
-            </div>
-            <div class="card-body">
-                <video controls>
-                    <source src="C:\Personal_GIT\First_Demo\Webshop website.mp4" type="video/mp4">
-                    Your browser does not support the video tag.
-                </video>
-            </div>
-            <div class="card-footer">
-                <p >Implementation of Webshop for MiniFactory.</p>
-            </div>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Shreya Bhatia, Front-End Developer, LinkedIn">
+    <title>Shreya Bhatia - Front-End Developer</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to right, #f2f0f0, #92b9de);
+            margin: 0;
+            padding: 0;
             
+            flex-direction: column;
+            align-items: center;
+            color: #333;
+        }
+        header {
+            background-color: #3f51b5;
+            color: white;
+            width: 100%;
+            text-align: center;
+            padding: 10px 0;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        header h1 {
+            margin: 0;
+            
+        }
+        header p {
+            margin: 5px 0 0;
+            font-size: 1.2em;
+        }
+        .profile-image {
+            margin-top: -75px;
+            text-align: center;
+        }
+        .profile-image img {
+          margin-top: 86px;
+            border-radius: 100px;
+            width: 150px;
+            height: 160px;
+            border: 5px solid white;
+        }
+        .content {
+            text-align: center;
+            margin: 20px;
+        }
+        .profile {
+            font-weight: bold;
+            font-size: 1.2em;
+            color: #195594;
+        }
+        .linkedin, .email, .phone {
+            display: inline-block;
+            margin: 10px;
+            padding: 10px 20px;
+            font-size: 1em;
+            color: white;
+            background-color: #1a68bc;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            cursor: pointer;
+        }
+        .linkedin:hover, .email:hover, .phone:hover {
+            background-color: #0056b3;
+        }
+        .section {
+            width: 80%;
+            max-width: 900px;
+            margin: 20px auto;
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            text-align: left;
+        }
+        .section h2 {
+            margin-top: 0;
+            color: #0056b3;
+        }
+        .project video {
+            width: 100%;
+            border-radius: 5px;
+        }
+        .project-description {
+            background-color: white;
+            padding: 10px;
+            border-top: 1px solid #ddd;
+        }
+        .skills ul, .experience ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .skills li, .experience li {
+            margin-bottom: 10px;
+        }
+        .skills ul {
+            columns: 2;
+            column-gap: 20px;
+        }
+        .experience ul {
+            margin-left: 20px;
+        }
+        .experience li::marker {
+            color: #3f51b5;
+        }
+        .education ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .education li {
+            margin-bottom: 10px;
+        }
+    
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Shreya Bhatia</h1>
+        <p>Front-End Developer</p>
+    </header>
+    <div class="profile-image">
+        <img src="images/My_photo.jpg" alt="Shreya Bhatia" title="Shreya">
+    </div>
+    <div class="content">
+        <p class="profile">Welcome to My Profile!</p>
+        <a href="https://www.linkedin.com/in/shreya-bhatia-19441016a" target="_blank" class="linkedin">LinkedIn</a>
+        <a href="mailto:shreya.bhatia2708@gmail.com" target="_blank" class="email">Email Me</a>
+        <a href="tel:+4915129425156" target="_blank" class="phone">Call Me</a>
+    </div>
+    <div class="section about-me">
+        <h2>About Me</h2>
+        <p>Highly skilled Front-End Developer with 3 years of experience in creating innovative and user-friendly websites. Proficient in HTML5, CSS3, JavaScript, React.js and responsive design with a keen eye for detail.  Dedicated to delivering user-friendly interfaces and seamless user experiences to contribute to innovative projects.</p>
+    </div>
+   
+    
+    <div class="section project">
+        <h2>Projects</h2>
+        <div>
+            <video controls>
+                <source src="C:\Personal_GIT\First_Demo\Webshop website.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <div class="project-description">
+                <p>Transformed MiniFactory’s order management system by conceptualizing and implementing a user-friendly Webshop human-machine interface and introducing a KPI Dashboard for monitoring crucial operational parameters. Successfully developed and implemented a feature-rich Webshop tailored to MiniFactory’s specific requirements using TypeScript and Node.js.</p>
+            </div>
         </div>
-        
-      </div>
-    </main>
-    <script src="C:\Personal_GIT\First_Demo\js\index.js"></script>
-  </body>
+    </div>
+
+    <div class="section experience">
+      <h2>Experience</h2>
+      <ul>
+          <li>
+              <img src="images/teamviewer_logo.png" alt="TeamViewer Logo" style="width:50px;vertical-align:middle;">
+              <strong>TeamViewer GmbH, Stuttgart (Jun 2022 - Present)</strong>
+              <p><strong style="color:#3f51b5;">Working Student Software Developer</strong></p>
+              <ul>
+                  <li>Responsible for automation (using Ranorex) and testing across multiple operating systems.</li>
+                  <li>Analyze test results, report bugs, and work closely with developers to resolve issues.</li>
+                  <li>Develop and execute automated test cases, and test scripts to enhance software quality and track software defects using tools such as Jira.</li>
+                  <li>Experience in developing and maintaining dynamic websites and web applications.</li>
+                  <li>Experience with frontend frameworks such as React and Vue.js.</li>
+                  <li>Experience with backend technologies such as Node.js and Java.</li>
+                  <li>Familiarity with database management systems such as MySQL, PostgreSQL, or MongoDB.</li>
+                  <li>Knowledge of responsive design principles and mobile-first development.</li>
+                  <li>Ability to debug and troubleshoot complex web applications.</li>
+                  <li>Experience with testing and optimizing web applications for performance.</li>
+              </ul>
+          </li>
+          <li>
+              <img src="images/tcs_logo.png" alt="TCS Logo" style="width:50px;vertical-align:middle;">
+              <strong>Tata Consultancy Services, Mumbai (Jun 2019 - Feb 2022)</strong>
+              <p><strong style="color:#3f51b5;">Front-End Developer</strong></p>
+              <ul>
+                  <li>Developed user-friendly responsive websites using HTML5, CSS3, React, and JavaScript.</li>
+                  <li>Developed a Security Compliance web application for TCS Enterprise Transport Management System.</li>
+                  <li>Implemented the TVTS dashboard for live tracking of vehicles and employee positions.</li>
+                  <li>Designed and enhanced web pages for eTMS application using frontend frameworks such as Ionic.</li>
+                  <li>Knowledge of version control systems such as GitHub and Jenkins.</li>
+                  <li>Collaborated with designers, backend developers, and other stakeholders to translate design mockups into functional websites.</li>
+                  <li>Conducted regular testing and debugging to identify and fix any issues or bugs.</li>
+              </ul>
+          </li>
+      </ul>
+  </div>
+  
+
+    <div class="section skills">
+      <h2>Skills</h2>
+      <ul>
+          <li>HTML5/CSS</li>
+          <li>JavaScript</li>
+          <li>Responsive design</li>
+          <li>UI/UX design</li>
+          <li>Version control (GitHub)</li>
+          <li>React JS</li>
+          <li>Node.js</li>
+          <li>CI/CD (Jenkins)</li>
+          <li>Test Automation (Ranorex)</li>
+          <li>TypeScript</li>
+          <li>Jira</li>
+      </ul>
+  </div>
+    <div class="section education">
+        <h2>Education</h2>
+        <ul>
+            <li>
+                <strong>University of Stuttgart, Germany</strong>
+                <p>Master in Electrical Engineering (Apr 2022 - Present)</p>
+            </li>
+            <li>
+                <strong>University of Mumbai, India</strong>
+                <p>Bachelor in Electronics and Communication Engineering (Jun 2015 - May 2019)</p>
+                <p>Grade: 8.49 CGPA</p>
+            </li>
+        </ul>
+    </div>
+</body>
 </html>
