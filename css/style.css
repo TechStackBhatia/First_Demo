@@ -9,10 +9,7 @@ background: linear-gradient(to right, #f2f0f0,#92b9de);
   .profile{
     font-weight: bold;
   }
-  .linkedin {
- 
-    
-  }
+
   .linkedin:hover{
     background-color: #0056b3;
   }
